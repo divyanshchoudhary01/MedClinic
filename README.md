@@ -3,18 +3,28 @@ I have designed a web site appointment with doctors
 This website can be used by hospitals for booking appointments of patients.
  Technical stack used here->
 Frontend Technologies -> HTML,CSS ,JavaScript, JQuery
+
 Backend Technologies -> Java
+
 Database connectivity driver- Java database connectivity driver
+
 Server- tomcat
+
 On the very first page ,login page will be displayed, if you have the account ,enter the login credentials , 
 Home page will be displayed ,On the home Page following features are available->
+
 1)	Book an appointment
 2)	Appointment List
 3)	Cancel the Appointment
+
 On Clicking Book an appointment ,form will be presented in which you have to enter the personal details and doctor name,time ,at the end appointment will be booked
+
 On clicking ,Appointment List, all appointment of the present day will be displayed.
+
 On clicking ‘Cancel the Appointment ’,you will be taken to the new page,where you have to enter ‘Aaadhar Card Number ’  of that particular patient to cancel his/her appointment.
+
 What happens in the background ->
+
 All the servlet mappings has been done in web.xml
 When you will click on login button, in the  background, Using jquery ,username and password will be fetched , a json will be made which contains “{username:’”,password:”” }” a GET type request will be sent to server, with url   “jq/login” ,this request will be entertained by the Login servlet . In login servlet ,username and password will be taken out form the request object After that using method getmethodByUserName of AdministratorDAO ,validation on username and password will be performed  ,in the database username and password will be checked , if username doesn’t’t exist then “INVALID Username”,will be sent in the response from the server side and vice versa for password.
 If username and password is correct ,in response ‘1’  will be sent to the client side ,after that on Client Side,in sessionStorage ,login will be set with string “login” . Whenever someone access without doing  login ,then in that case ,  a function will called after loading of the DOM,in that function,login value will checked in sessionSotrage ,if session storage is returning ‘NULL’ then in that scenario ,you will directed to the Login Page.
