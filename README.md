@@ -1,8 +1,10 @@
 # MedClinic
-I have designed a web site appointment with doctors
+
 This website can be used by hospitals for booking appointments of patients.
- Technical stack used here->
-Frontend Technologies -> HTML,CSS ,JavaScript, JQuery
+ 
+ Technical stack used here-> 
+ 
+ Frontend Technologies -> HTML,CSS ,JavaScript, JQuery
 
 Backend Technologies -> Java
 
@@ -42,5 +44,5 @@ On clicking on it , we will be taken to eg7.html,before loading of the DOM , a g
 For the third Option ->Cancelling the Appointment ,
 on clicking on it,you will be redirected to the new page that is eg8.html ,where you have to enter andharCardNumber of the person whose appointment you want to cancel. After entering the addharCardNumber On  clicking yes Button ,a GET   type request with url "/jq/deletePatient" using jquery will be send to the server side. According to the servlet mapping done in web.xml ,this request will handled by the deletePatient.java servlet ,where  aadharCardNumber value will be taken out from the request type object ,PatientDAO object will be formed. Delete method of PatientDAO will be called  where it will check  whether addharCardNumber exists   or not ,if exists ,then that particular appointment with addharCardNumber value  will be deleted from the database  .In response 1 will be send on successful deletion to client side   ,and you will be directed  to the page where you will be shown “Appointment Cancelled Successfully”.
 
-When you click on Logout ,all “login” will be removed from sessionStorage.
+When you click on Logout , “login” will be removed from sessionStorage. you will be taken to the login page.
  
