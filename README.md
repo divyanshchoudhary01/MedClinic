@@ -49,15 +49,26 @@ When you click on Logout , “login” will be removed from sessionStorage. you 
 
 ![p1](https://user-images.githubusercontent.com/62482950/219866521-ee295140-9412-4064-8775-5f05ce249901.png)
 
+
+
 ![p2](https://user-images.githubusercontent.com/62482950/219866551-1b7787b3-dcfb-44be-b40b-218d625f239f.png)
+
+
 
 ![p3](https://user-images.githubusercontent.com/62482950/219866559-65a09010-485c-4abe-bdb2-0f6014a6da54.png)
 
+
+
 ![p4](https://user-images.githubusercontent.com/62482950/219866569-a1223dc0-ff0f-4f26-95a3-41479c254c79.png)
+
+
 
 ![p5](https://user-images.githubusercontent.com/62482950/219866581-c6361049-1d0e-4921-86c2-c9d778fd91df.png)
 
+
+
 ![p6](https://user-images.githubusercontent.com/62482950/219866589-e70db9c8-59c5-4401-a553-e4322b163e7f.png)
+
 
 
 
