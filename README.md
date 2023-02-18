@@ -45,4 +45,14 @@ For the third Option ->Cancelling the Appointment ,
 on clicking on it,you will be redirected to the new page that is eg8.html ,where you have to enter andharCardNumber of the person whose appointment you want to cancel. After entering the addharCardNumber On  clicking yes Button ,a GET   type request with url "/jq/deletePatient" using jquery will be send to the server side. According to the servlet mapping done in web.xml ,this request will handled by the deletePatient.java servlet ,where  aadharCardNumber value will be taken out from the request type object ,PatientDAO object will be formed. Delete method of PatientDAO will be called  where it will check  whether addharCardNumber exists   or not ,if exists ,then that particular appointment with addharCardNumber value  will be deleted from the database  .In response 1 will be send on successful deletion to client side   ,and you will be directed  to the page where you will be shown “Appointment Cancelled Successfully”.
 
 When you click on Logout , “login” will be removed from sessionStorage. you will be taken to the login page.
+
+
+![p1](https://user-images.githubusercontent.com/62482950/219866521-ee295140-9412-4064-8775-5f05ce249901.png)
+
+
+
+
+
+
+
  
