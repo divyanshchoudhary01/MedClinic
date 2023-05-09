@@ -76,5 +76,9 @@ When you click on Logout , “login” will be removed from sessionStorage. you 
 
 
 
+https://github.com/divyanshchoudhary01/MedClinic/assets/62482950/647bb4bd-4926-470a-abe5-bcda9d9b4752
+
+
+
 
  
